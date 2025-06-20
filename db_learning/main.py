@@ -40,7 +40,7 @@ def main():
                     print("---------")
 
                 upsert_stmt = """insert into edwin_table (id, first_name, last_name, created_at, updated_at, data)
-                VALUES ('edwin.k.brown', 'Ed', 'Brown', current_timestamp, current_timestamp, 
+                VALUES ('edwin.brown', 'Ed', 'Brown', current_timestamp, current_timestamp, 
                 'This is the current way of how we do it') ON CONFLICT (id) DO UPDATE 
                 SET first_name = EXCLUDED.first_name, updated_at = current_timestamp, 
                 data = 'This is the current way of how we do it' 
