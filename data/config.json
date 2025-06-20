@@ -1,0 +1,7 @@
+{
+  "dbName" : "testdb",
+  "user" : "testdb",
+  "token" : "testdb",
+  "host" : "localhost",
+  "port" : 5432
+}
